@@ -26,3 +26,4 @@ app.use((req, res) => {
 app.listen(PORT, () => {
   console.log(`🚀 The Data Hub server is running on http://localhost:${PORT}`);
 });
+module.exports = app;
